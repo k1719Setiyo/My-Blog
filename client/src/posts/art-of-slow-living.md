@@ -1,7 +1,8 @@
 ---
 title: "The Power Paradox: Is Texas the New California?"
 date: 2025-10-08T14:02:00.000+04:00
-description: Why rushing through life might be costing you more than just time.
+description: "The Power Paradox: Rising Costs, Falling Reliability, and the Data
+  Center Boom"
 image: /images/post-nature-walk.jpg
 ---
 I set out to test a growing narrative in the headlines that AI’s explosive growth is driving U.S. power prices up. The data tells a different story, and that’s where the real power paradox begins.
