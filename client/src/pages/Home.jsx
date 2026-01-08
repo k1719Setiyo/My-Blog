@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getAllPosts } from '../lib/posts';
+import settings from '../data/settings.json';
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
@@ -12,9 +13,9 @@ export default function Home() {
   return (
     <div>
       <div className="mb-4">
-        <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>The Minimalist Reader</h1>
+        <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>{settings.site_title}</h1>
         <p className="text-muted font-sans text-sm">
-          A space for clarity and focus.
+          {settings.site_description}
         </p>
       </div>
 

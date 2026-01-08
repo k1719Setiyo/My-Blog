@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import settings from '../data/settings.json';
 
 export default function Layout() {
   return (
     <div className="app-wrapper">
       <header className="container mt-2 mb-4" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Link to="/" style={{ fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: '1.2rem', letterSpacing: '-0.02em' }}>
-          The Minimalist Reader
+          {settings.site_title}
         </Link>
         <nav>
           <Link to="/" className="font-sans text-sm" style={{ marginRight: '1.5rem' }}>Home</Link>
@@ -19,7 +20,7 @@ export default function Layout() {
       </main>
 
       <footer className="container mt-4 mb-2 text-center text-muted text-sm font-sans">
-        <p>&copy; {new Date().getFullYear()} The Minimalist Reader.</p>
+        <p>{settings.footer_text}</p>
       </footer>
     </div>
   );

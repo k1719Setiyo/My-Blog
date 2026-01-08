@@ -1,38 +1,35 @@
 ---
-title: "Beyond the Hype: What You Find When You Follow the Hyperscaler Energy Trail"
-date: 2025-07-09T10:38:00.000+04:00
-description: "Measuring the ROI on AI "
+title: "Why I Switched to Markdown"
+date: "2023-11-02"
+description: "A technical look at why simple text files are the future of writing."
 ---
-I started this personal project trying to solve a puzzle that ended up being more complicated than I thought: why do electricity demand forecasts for AI vary up to 40x between major institutions? Leading banks, consulting firms, and industry organizations like the IEA can't agree on basic numbers—current demand forecasts alone can vary up to 6x—so the former energy analyst in me decided to ignore the speculation and follow the actual energy consumption data to understand the current state of play as told by the numbers reported by the companies themselves.
 
-What I found after digging through over a decade's worth of 10-Ks, sustainability reports, and energy databases completely changed how I think about the AI race.
+I used to write in complex word processors. I spent more time fiddling with margins and fonts than I did actually writing. Then I discovered **Markdown**.
 
-## **The Result: A New Way to Analyze AI Returns**
+## What is Markdown?
 
-It began with conflicting forecasts. It ended with a completely new way of looking at hyperscaler AI returns—merging financial reporting with sustainability data and good old-fashioned energy analysis. Below are the two dashboards I created to get my head around all this. 
+Markdown is a lightweight markup language for creating formatted text using a plain-text editor. It was created by John Gruber in 2004.
 
-[Beyond the Hype: The Complete Analysis](https://kjvxymle.manus.space/)[.](https://02bbbc3e.streaklinks.com/CnKdQYMYmEMf4r1d1Ql4Z_GU/https%3A%2F%2Fkjvxymle.manus.space%2F) *The full hyperscaler comparison: energy consumption, ROI on AI patterns, and what the market is missing*
+### The Syntax is Simple
 
-[Meta Deep Dive: The Transparency Leader](https://qesijsfw.manus.space/). *The most detailed energy and ROI on AI analysis possible—because Meta actually reports their electricity consumption at the facility level*
+You don't need to click buttons. You just type.
 
-## **Seven Findings That Surprised Me**
+*   `# Heading 1` becomes a big title.
+*   `**Bold**` makes text bold.
+*   `[Link](url)` creates a link.
 
-**1. The transparency hierarchy reveals strategic vulnerabilities.** Meta provides facility-level energy data. Alphabet offers solid aggregate reporting plus data center totals. Microsoft gives only company-wide electricity consumption. Amazon provides... zero. This opacity makes evaluating Amazon's ROI on AI nearly impossible and may become a strategic weakness.
+## Code Snippets
 
-**2. We need new metrics to understand ROI on AI reality.** Traditional financial metrics can't capture whether AI investments are commercially sustainable. We need energy-aware ROI on AI metrics like "electricity intensity of revenue" (which Meta actually introduced in their sustainability report) and "Revenue/MWh" (which emerged from this analysis). Without these, we're flying blind on the most expensive infrastructure buildout in corporate history.
+For developers, it's a dream. You can embed code blocks easily:
 
-**3. Microsoft's AI "credit" doesn't match the fundamentals.** Despite market hype, Microsoft's revenue efficiency is declining faster than peers, with a 38% drop in revenue per MWh since 2020 - even steeper than Meta's 28% decline. This suggests Microsoft is scaling AI infrastructure faster than they're monetizing it across their entire business, not just cloud services.
+```javascript
+function sayHello() {
+  console.log("Hello, world!");
+}
+```
 
-**4. Alphabet might be the most undervalued AI play.** Highest revenue-to-energy ratio, superior efficiency metrics, and 114% power growth with the smallest revenue efficiency decline. But there's a major red flag: they use 5x more water than peers (~0.95 vs 0.19 L/kWh). As water scarcity constrains data center expansion, this could become a serious liability.
+## The Philosophy
 
-**5. Meta delivers strong core business returns while managing AI investment pressure.** Both Meta and Alphabet started around $12,000 revenue per MWh in 2020. Alphabet declined 5.3%, Meta declined 28.8% since then. Meta's core business thrives, but Llama and SSI initiatives consume electricity faster than they generate revenue. The rumored $29 billion private credit facility provides financial structure to manage this dynamic.
+The beauty of Markdown is its portability. A Markdown file written 10 years ago is still readable today. It doesn't depend on a specific version of Microsoft Word or Google Docs. It is just text.
 
-**6. Consumer AI drives returns; enterprise AI struggles.** Meta and Alphabet generate ROI on AI through consumer products where engagement translates directly to revenue. Microsoft's inability to extract value through their non-Azure enterprise products reveals a sobering reality—if Microsoft can't monetize AI across their vast enterprise customer base that's buying compute and AI products hoping to drive their own AI value, what does that say about enterprise AI adoption more broadly?
-
-**7. The infrastructure investment cycle is accelerating.** Each hyperscaler has now spent $200-260 billion on infrastructure since 2019, with 2022 marking a clear inflection point in spending acceleration. But the returns on this investment are dramatically different.
-
-## **Why This Matters Now**
-
-With CapEx approaching $70 billion on average annually at each of these companies, the returns they see from AI investments will drive every future capital allocation decision. Companies that can't prove ROI on AI will be forced to pull back just as the AI cycle accelerates.
-
-The energy data tells a story the earnings calls don't. And that story is just getting started.
+If you value longevity and simplicity, give it a try.
