@@ -11,9 +11,9 @@ What I found after digging through over a decade's worth of 10-Ks, sustainabilit
 
 It began with conflicting forecasts. It ended with a completely new way of looking at hyperscaler AI returns—merging financial reporting with sustainability data and good old-fashioned energy analysis. Below are the two dashboards I created to get my head around all this. 
 
-[Beyond the Hype: The Complete Analysis](https://02bbbc3e.streaklinks.com/CnKdQYcLC-gS9g4kuQTJLfCH/https%3A%2F%2Fkjvxymle.manus.space%2F)[.](https://02bbbc3e.streaklinks.com/CnKdQYMYmEMf4r1d1Ql4Z_GU/https%3A%2F%2Fkjvxymle.manus.space%2F) *The full hyperscaler comparison: energy consumption, ROI on AI patterns, and what the market is missing*
+[Beyond the Hype: The Complete Analysis](https://kjvxymle.manus.space/)[.](https://02bbbc3e.streaklinks.com/CnKdQYMYmEMf4r1d1Ql4Z_GU/https%3A%2F%2Fkjvxymle.manus.space%2F) *The full hyperscaler comparison: energy consumption, ROI on AI patterns, and what the market is missing*
 
-[Meta Deep Dive: The Transparency Leader](https://02bbbc3e.streaklinks.com/CnKdQVdi4p8n5dkk_wQmvmGD/https%3A%2F%2Fqesijsfw.manus.space%2F). *The most detailed energy and ROI on AI analysis possible—because Meta actually reports their electricity consumption at the facility level*
+[Meta Deep Dive: The Transparency Leader](https://qesijsfw.manus.space/). *The most detailed energy and ROI on AI analysis possible—because Meta actually reports their electricity consumption at the facility level*
 
 ## **Seven Findings That Surprised Me**
 
