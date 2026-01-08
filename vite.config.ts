@@ -1,23 +1,20 @@
-import { jsxLocPlugin } from "@builder.io/vite-plugin-jsx-loc";
-import tailwindcss from "@tailwindcss/vite";
-import react from "@vitejs/plugin-react";
-import path from "path";
 import { defineConfig } from "vite";
-import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import path from "path";
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
-
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins,
+  plugins: [react(), tailwindcss()],
+  root: "client", // Explicitly tell Vite the root is the 'client' folder
+  build: {
+    outDir: "../dist", // Output to 'dist' in the project root
+    emptyOutDir: true,
+  },
   resolve: {
     alias: {
       "@": path.resolve(process.cwd(), "client", "src"),
       "@shared": path.resolve(process.cwd(), "shared"),
     },
-  },
-  root: "client",
-  build: {
-    outDir: "dist",
-    emptyOutDir: true,
   },
 });
