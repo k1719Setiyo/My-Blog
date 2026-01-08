@@ -1,8 +1,25 @@
-import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, Outlet, useLocation } from 'react-router-dom';
 import settings from '../data/settings.json';
 
 export default function Layout() {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Update the document title based on the current route and site settings
+    const baseTitle = settings.site_title || 'My Blog';
+    
+    if (location.pathname === '/') {
+      document.title = baseTitle;
+    } else if (location.pathname === '/about') {
+      document.title = `About | ${baseTitle}`;
+    } else {
+      // For blog posts, the title is usually set by the post component itself,
+      // but we can set a default fallback here
+      document.title = baseTitle;
+    }
+  }, [location, settings.site_title]);
+
   return (
     <div className="app-wrapper">
       <header className="container mt-2 mb-4" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
