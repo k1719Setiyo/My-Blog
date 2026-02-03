@@ -169,3 +169,11 @@ img {
   color: #1D4ED8; /* Darker Blue on hover */
   text-decoration-thickness: 2px;
 }
+
+sup {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
+  position: relative;
+  top: -0.2em;
+}
