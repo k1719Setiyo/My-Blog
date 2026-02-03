@@ -23,24 +23,26 @@ export default function Post() {
 
   return (
     <article>
-      <header className="mb-4">
+           <header className="mb-4">
         <div className="font-sans text-sm text-muted mb-1">
           {post.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
         </div>
-        <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>{post.title}</h1>
+        <h1 style={{ fontSize: '2.25rem', marginBottom: '0.5rem', fontFamily: 'var(--font-serif)', fontWeight: '700' }}>{post.title}</h1>
         {post.subtitle && (
           <h2 style={{ 
-            fontSize: '1.5rem', 
+            fontSize: '1.35rem', 
             fontWeight: '400', 
-            color: 'var(--color-text-muted)', 
+            color: 'var(--color-text)', 
             marginTop: '0', 
-            marginBottom: '1.5rem',
-            fontFamily: 'var(--font-serif)'
+            marginBottom: '2rem',
+            fontFamily: 'var(--font-serif)',
+            fontStyle: 'italic'
           }}>
             {post.subtitle}
           </h2>
         )}
       </header>
+
 
       <div className="markdown-content">
         <ReactMarkdown>{post.content}</ReactMarkdown>
