@@ -10,7 +10,8 @@
   --font-sans: 'Inter', sans-serif;
   
   --spacing-unit: 1rem;
-  --container-width: 700px;
+  /* Widened from 700px to 800px for better desktop breathing room */
+  --container-width: 800px; 
 }
 
 * {
@@ -74,7 +75,20 @@ img {
 /* Markdown Content Styles */
 .markdown-content p {
   margin-bottom: 1.5rem;
-  font-size: 1.125rem;
+  /* Responsive Font Size: 18px on Desktop, 17px on Mobile */
+  font-size: 1.125rem; 
+}
+
+/* Mobile Tweaks */
+@media (max-width: 600px) {
+  .markdown-content p {
+    font-size: 1.05rem; /* Slightly smaller on mobile */
+    line-height: 1.7;   /* Tighter line height for mobile */
+  }
+  
+  .container {
+    padding: 0 1.25rem; /* Less padding on sides for mobile */
+  }
 }
 
 .markdown-content h2 {
@@ -145,6 +159,7 @@ img {
   color: var(--color-text-light);
   border-bottom: 2px solid var(--color-border);
 }
+
 /* Distinct Hyperlink Styling */
 .markdown-content a {
   color: #2563EB; /* Royal Blue */
@@ -157,4 +172,4 @@ img {
   color: #1D4ED8; /* Darker Blue on hover */
   text-decoration-thickness: 2px;
 }
-/* Force rebuild v1 */
+
