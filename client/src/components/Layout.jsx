@@ -7,7 +7,6 @@ export default function Layout() {
 
   useEffect(() => {
     // 1. Update Document Title (Only for Home and About)
-    // We let individual Post pages handle their own titles!
     const baseTitle = settings.site_title || 'My Blog';
     
     if (location.pathname === '/') {
@@ -15,12 +14,9 @@ export default function Layout() {
     } else if (location.pathname === '/about') {
       document.title = `About | ${baseTitle}`;
     }
-    // Note: If it's a blog post (starts with /post/), we do NOTHING here.
-    // The Post.jsx component will set the specific title.
 
     // 2. Send Page View to Google Analytics
     if (window.gtag) {
-      // Small delay to ensure the title has updated before sending
       setTimeout(() => {
          window.gtag('config', 'G-1506VLLZ2Q', {
           page_path: location.pathname + location.search,
@@ -33,12 +29,17 @@ export default function Layout() {
   return (
     <div className="app-wrapper">
       <header className="container mt-2 mb-4" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <Link to="/" style={{ fontFamily: 'var(--font-sans)', fontWeight: 700, fontSize: '1.2rem', letterSpacing: '-0.02em' }}>
+        <Link to="/" style={{ 
+          fontFamily: 'var(--font-sans)', 
+          fontWeight: 700, 
+          fontSize: '1.4rem', /* Increased from 1.2rem for better visibility */
+          letterSpacing: '-0.02em' 
+        }}>
           {settings.site_title}
         </Link>
         <nav>
-          <Link to="/" className="font-sans text-sm" style={{ marginRight: '1.5rem' }}>Home</Link>
-          <Link to="/about" className="font-sans text-sm">About</Link>
+          <Link to="/" className="font-sans text-sm" style={{ marginRight: '1.5rem', fontSize: '1rem' }}>Home</Link>
+          <Link to="/about" className="font-sans text-sm" style={{ fontSize: '1rem' }}>About</Link>
         </nav>
       </header>
 
@@ -52,4 +53,3 @@ export default function Layout() {
     </div>
   );
 }
-
