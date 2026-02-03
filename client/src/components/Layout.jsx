@@ -14,8 +14,6 @@ export default function Layout() {
     } else if (location.pathname === '/about') {
       document.title = `About | ${baseTitle}`;
     } else {
-      // For blog posts, the title is usually set by the post component itself,
-      // but we can set a default fallback here
       document.title = baseTitle;
     }
   }, [location, settings.site_title]);
@@ -42,3 +40,4 @@ export default function Layout() {
     </div>
   );
 }
+
