@@ -6,21 +6,27 @@ export default function Layout() {
   const location = useLocation();
 
   useEffect(() => {
-    // 1. Update Document Title
+    // 1. Update Document Title (Only for Home and About)
+    // We let individual Post pages handle their own titles!
     const baseTitle = settings.site_title || 'My Blog';
+    
     if (location.pathname === '/') {
       document.title = baseTitle;
     } else if (location.pathname === '/about') {
       document.title = `About | ${baseTitle}`;
-    } else {
-      document.title = baseTitle;
     }
+    // Note: If it's a blog post (starts with /post/), we do NOTHING here.
+    // The Post.jsx component will set the specific title.
 
     // 2. Send Page View to Google Analytics
     if (window.gtag) {
-      window.gtag('config', 'G-1506VLLZ2Q', {
-        page_path: location.pathname + location.search
-      });
+      // Small delay to ensure the title has updated before sending
+      setTimeout(() => {
+         window.gtag('config', 'G-1506VLLZ2Q', {
+          page_path: location.pathname + location.search,
+          page_title: document.title
+        });
+      }, 100);
     }
   }, [location, settings.site_title]);
 
@@ -46,5 +52,4 @@ export default function Layout() {
     </div>
   );
 }
-
 
