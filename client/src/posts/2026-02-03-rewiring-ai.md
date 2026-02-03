@@ -20,7 +20,7 @@ This analysis finds that the AI industry is rapidly moving beyond the era of sta
 
 # **The Big Breakthroughs**
 
-# **A New Architectural Paradigm**
+## **A New Architectural Paradigm**
 
 The narrative that has dominated the AI industry, a relentless race to build ever-larger, centralized foundation models trained once and deployed statically, is beginning to show its age. Practical boundaries to scaling have come into view: the so-called data wall, the availability of basic factors of production such as electricity, and the capacity of data centers to respond to rapidly growing demand.
 
@@ -30,7 +30,7 @@ The static paradigm is unsustainable. Google’s publication of the Titans paper
 
 It is highly likely that, by the end of 2026, leadership in AI will be determined not by brute model size, but by the efficiency, adaptability, and distribution of AI systems. Indeed, it is quite likely that new records will be set in decentralized training and continual learning this year.
 
-# **The Architectural Rupture: From Static to Dynamic**
+## **The Architectural Rupture: From Static to Dynamic**
 
 The past several years have witnessed some of the most extraordinary leaps in predictive artificial intelligence in history. But three problems have been conspicuous:
 
@@ -52,7 +52,7 @@ Google’s research directly addresses amnesia by reimagining the neural network
 
 These architectures remain in the research phase. Titans has been validated on tasks like “Needle-in-a-Haystack” retrieval and time-series forecasting, and Nested Learning’s Hope architecture has been tested at 8B parameters. But their publication signals a strategic recognition: the static paradigm cannot continue. Google, which defined the Transformer era, is now publicly charting the path beyond it. 
 
-**Turbocharging the Long Haul: Overcoming Data Center Latency**
+## **Turbocharging the Long Haul: Overcoming Data Center Latency**
 
 In May 2025, NVIDIA released NeMo Framework 25.02 and Megatron-Core 0.11.0,4 which together scaled training beyond the physical and operational limits of a single data center by harnessing the combined power of multiple sites. In an impressive foreshadowing of the future, NVIDIA was able to essentially match the performance of a Chicago data center (3,072 GPUs) by splitting its workload with a data center some 1,000 kilometers away, in Ashburn, Virginia. The round-trip latency: 21 milliseconds. 
 
