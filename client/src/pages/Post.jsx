@@ -1,3 +1,4 @@
+import remarkSupersub from 'remark-supersub';
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import FeedbackForm from '../components/FeedbackForm';
@@ -45,7 +46,7 @@ export default function Post() {
 
 
       <div className="markdown-content">
-        <ReactMarkdown>{post.content}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkSupersub]}>{post.content}</ReactMarkdown>
       </div>
 
       <FeedbackForm postTitle={post.title} />
