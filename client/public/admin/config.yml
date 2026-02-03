@@ -13,12 +13,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}  <-- ADD THIS LINE
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "pages"
     label: "Pages"
     files:
@@ -28,7 +26,6 @@ collections:
         fields:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
-
   - name: "settings"
     label: "Site Settings"
     files:
