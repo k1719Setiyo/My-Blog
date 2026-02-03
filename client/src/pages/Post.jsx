@@ -27,7 +27,19 @@ export default function Post() {
         <div className="font-sans text-sm text-muted mb-1">
           {post.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
         </div>
-        <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>{post.title}</h1>
+        <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>{post.title}</h1>
+        {post.subtitle && (
+          <h2 style={{ 
+            fontSize: '1.5rem', 
+            fontWeight: '400', 
+            color: 'var(--color-text-muted)', 
+            marginTop: '0', 
+            marginBottom: '1.5rem',
+            fontFamily: 'var(--font-serif)'
+          }}>
+            {post.subtitle}
+          </h2>
+        )}
       </header>
 
       <div className="markdown-content">
