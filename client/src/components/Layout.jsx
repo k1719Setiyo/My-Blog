@@ -6,15 +6,21 @@ export default function Layout() {
   const location = useLocation();
 
   useEffect(() => {
-    // Update the document title based on the current route and site settings
+    // 1. Update Document Title
     const baseTitle = settings.site_title || 'My Blog';
-    
     if (location.pathname === '/') {
       document.title = baseTitle;
     } else if (location.pathname === '/about') {
       document.title = `About | ${baseTitle}`;
     } else {
       document.title = baseTitle;
+    }
+
+    // 2. Send Page View to Google Analytics
+    if (window.gtag) {
+      window.gtag('config', 'G-1506VLLZ2Q', {
+        page_path: location.pathname + location.search
+      });
     }
   }, [location, settings.site_title]);
 
@@ -40,4 +46,5 @@ export default function Layout() {
     </div>
   );
 }
+
 
