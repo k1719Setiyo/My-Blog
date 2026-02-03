@@ -1,5 +1,5 @@
 ---
-title: "Rewiring AI "
+title: Rewiring AI in 2026
 subtitle: The Convergence of Continual Learning, Decentralization, and
   Collective Intelligence
 date: 2026-02-04T01:17:00.000+04:00
