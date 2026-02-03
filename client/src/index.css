@@ -145,3 +145,15 @@ img {
   color: var(--color-text-light);
   border-bottom: 2px solid var(--color-border);
 }
+/* Distinct Hyperlink Styling */
+.markdown-content a {
+  color: #2563EB; /* Royal Blue */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.markdown-content a:hover {
+  color: #1D4ED8; /* Darker Blue on hover */
+  text-decoration-thickness: 2px;
+}
