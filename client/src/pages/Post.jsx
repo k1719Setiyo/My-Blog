@@ -3,13 +3,20 @@ import { useParams, Link } from 'react-router-dom';
 import FeedbackForm from '../components/FeedbackForm';
 import ReactMarkdown from 'react-markdown';
 import { getPostBySlug } from '../lib/posts';
+import settings from '../data/settings.json';
 
 export default function Post() {
   const { slug } = useParams();
   const [post, setPost] = useState(null);
 
   useEffect(() => {
-    getPostBySlug(slug).then(setPost);
+    getPostBySlug(slug).then((data) => {
+      setPost(data);
+      // Update Browser Tab Title
+      if (data) {
+        document.title = `${data.title} | ${settings.site_title}`;
+      }
+    });
   }, [slug]);
 
   if (!post) return <div className="container mt-4 text-center">Loading...</div>;
