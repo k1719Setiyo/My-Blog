@@ -1,1 +1,5 @@
-/* /index.html 200
+# 1. If a pre-rendered post file exists, serve it!
+/post/:slug  /post/:slug/index.html  200
+
+# 2. For everything else, use the main app
+/*  /index.html  200
