@@ -6,8 +6,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// CORRECTED PATHS: Build output is in 'dist/public' relative to project root
-const DIST_DIR = path.join(__dirname, 'dist', 'public');
+// UNIFIED PATH: client/dist
+const DIST_DIR = path.join(__dirname, 'client', 'dist');
 const POSTS_DIR = path.join(__dirname, 'client', 'src', 'posts');
 const TEMPLATE_PATH = path.join(DIST_DIR, 'index.html');
 
@@ -15,7 +15,7 @@ async function prerender() {
   // 1. Verify Build Exists
   if (!fs.existsSync(DIST_DIR)) {
     console.error(`Error: Build directory not found at ${DIST_DIR}`);
-    console.error('Make sure to run "vite build" (or pnpm build) before this script.');
+    console.error('Make sure to run "pnpm build" first.');
     process.exit(1);
   }
 
@@ -32,7 +32,7 @@ async function prerender() {
      process.exit(1);
   }
   const files = fs.readdirSync(POSTS_DIR).filter(file => file.endsWith('.md'));
-  console.log(`Found ${files.length} posts to prerender in ${POSTS_DIR}...`);
+  console.log(`Found ${files.length} posts to prerender...`);
 
   // 4. Generate Static Files
   for (const file of files) {
@@ -40,13 +40,13 @@ async function prerender() {
     const { data } = matter(content);
     const slug = file.replace('.md', '');
     
-    // Create directory: dist/public/post/{slug}
+    // Create directory: client/dist/post/{slug}
     const postDir = path.join(DIST_DIR, 'post', slug);
     if (!fs.existsSync(postDir)) {
       fs.mkdirSync(postDir, { recursive: true });
     }
 
-    // Fix Image URL (Absolute URL required for social previews)
+    // Fix Image URL
     let imageUrl = data.image || 'https://substratesm.com/images/default-og.jpg';
     if (imageUrl && imageUrl.startsWith('/' )) {
       imageUrl = `https://substratesm.com${imageUrl}`;
@@ -54,14 +54,8 @@ async function prerender() {
 
     // Inject Meta Tags
     let html = template;
+    html = html.replace(/<title>.*?<\/title>/, `<title>${data.title} | Substrate SM</title>` );
     
-    // Title
-    html = html.replace(
-      /<title>.*?<\/title>/, 
-      `<title>${data.title} | Substrate SM</title>`
-     );
-    
-    // Open Graph / Twitter Tags
     const metaTags = `
     <meta property="og:title" content="${data.title}" />
     <meta property="og:description" content="${data.description || data.subtitle || ''}" />
@@ -74,17 +68,11 @@ async function prerender() {
     <meta name="twitter:image" content="${imageUrl}" />
     `;
     
-    // Insert before </head>
     html = html.replace('</head>', `${metaTags}</head>` );
-
-    // Write index.html for this post
     fs.writeFileSync(path.join(postDir, 'index.html'), html);
-    console.log(`✅ Generated: dist/public/post/${slug}/index.html`);
+    console.log(`✅ Generated: client/dist/post/${slug}/index.html`);
   }
-  
   console.log('🎉 Prerendering complete!');
 }
 
 prerender();
-
-
