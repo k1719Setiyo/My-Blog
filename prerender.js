@@ -32,23 +32,32 @@ async function prerender() {
       fs.mkdirSync(postDir, { recursive: true });
     }
 
+    // --- NEW: Ensure image URL is absolute (Required for Social Previews) ---
+    let imageUrl = data.image || 'https://substratesm.com/images/default-og.jpg';
+    if (imageUrl.startsWith('/' )) {
+      imageUrl = `https://substratesm.com${imageUrl}`;
+    }
+
     // Replace meta tags in template
     let html = template;
     
     // Title
     html = html.replace(
       /<title>.*?<\/title>/, 
-      `<title>${data.title} | The Minimalist Reader</title>`
-    );
+      `<title>${data.title} | Substrate SM</title>`
+     );
     
     // Open Graph / Social Tags
     const metaTags = `
     <meta property="og:title" content="${data.title}" />
     <meta property="og:description" content="${data.description || data.subtitle || ''}" />
-    <meta property="og:image" content="${data.image || 'https://substratesm.com/images/default-og.jpg'}" />
+    <meta property="og:image" content="${imageUrl}" />
     <meta property="og:url" content="https://substratesm.com/post/${slug}" />
     <meta property="og:type" content="article" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${data.title}" />
+    <meta name="twitter:description" content="${data.description || data.subtitle || ''}" />
+    <meta name="twitter:image" content="${imageUrl}" />
     `;
     
     // Inject into <head>
@@ -59,6 +68,10 @@ async function prerender() {
   }
   
   console.log('Prerendering complete!');
+}
+
+prerender();
+
 }
 
 prerender();
