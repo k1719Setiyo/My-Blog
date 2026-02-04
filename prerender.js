@@ -6,9 +6,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// CONFIGURATION BASED ON YOUR VITE CONFIG
-// Root is 'client', OutDir is 'dist' -> 'client/dist'
-const DIST_DIR = path.join(__dirname, 'client', 'dist');
+// CORRECTED PATHS: Build output is in 'dist/public' relative to project root
+const DIST_DIR = path.join(__dirname, 'dist', 'public');
 const POSTS_DIR = path.join(__dirname, 'client', 'src', 'posts');
 const TEMPLATE_PATH = path.join(DIST_DIR, 'index.html');
 
@@ -41,7 +40,7 @@ async function prerender() {
     const { data } = matter(content);
     const slug = file.replace('.md', '');
     
-    // Create directory: client/dist/post/{slug}
+    // Create directory: dist/public/post/{slug}
     const postDir = path.join(DIST_DIR, 'post', slug);
     if (!fs.existsSync(postDir)) {
       fs.mkdirSync(postDir, { recursive: true });
@@ -80,7 +79,7 @@ async function prerender() {
 
     // Write index.html for this post
     fs.writeFileSync(path.join(postDir, 'index.html'), html);
-    console.log(`✅ Generated: client/dist/post/${slug}/index.html`);
+    console.log(`✅ Generated: dist/public/post/${slug}/index.html`);
   }
   
   console.log('🎉 Prerendering complete!');
@@ -89,6 +88,3 @@ async function prerender() {
 prerender();
 
 
-}
-
-prerender();
