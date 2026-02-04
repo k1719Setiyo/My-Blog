@@ -1,0 +1,17 @@
+[build]
+  # Tell Netlify to serve the folder where Vite is actually building
+  publish = "dist/public"
+  command = "pnpm build"
+
+# 1. Force serve the pre-rendered static file if it exists
+[[redirects]]
+  from = "/post/*"
+  to = "/post/:splat/index.html"
+  status = 200
+  force = true
+
+# 2. Fallback to SPA for everything else
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
