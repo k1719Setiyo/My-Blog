@@ -5,7 +5,7 @@ description: "In 2022, farmers were flush with cash, governments had fiscal room
   to intervene, and the humanitarian system could mount a response. In 2026,
   none of that holds. "
 ---
-An accompanying data dashboard with the charts and visual arguments that underpin the analysis can be found here.
+For those more visually inclined and the data junkies amongst us, an accompanying data dashboard with the charts and visual arguments that underpin the analysis can be found [here](https://theasymmetricshock.substratesm.com/).
 
 # **Introduction: The Core Thesis**
 
