@@ -5,6 +5,8 @@ description: "In 2022, farmers were flush with cash, governments had fiscal room
   to intervene, and the humanitarian system could mount a response. In 2026,
   none of that holds. "
 ---
+An accompanying data dashboard with the charts and visual arguments that underpin the analysis can be found here.
+
 # **Introduction: The Core Thesis**
 
 The current conflict in Iran presents a profound challenge to global agricultural markets, driven by the disruption of fertilizer and energy supplies transiting the Strait of Hormuz. While the agricultural sector has navigated geopolitical shocks before, notably the 2022 Russia-Ukraine war, the current crisis is fundamentally different. The distinction lies not just in the geography of the disruption, but in the financial health of the farmers who must absorb the shock. 
