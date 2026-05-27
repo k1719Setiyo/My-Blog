@@ -1,6 +1,6 @@
 ---
 title: Frontier Intelligence, Fixed Cost
-subtitle: Local AI just changed the cloud's pricing power
+subtitle: Local AI is changing the cloud's pricing power
 date: 2026-05-27T17:04:00.000+04:00
 description: "The case for local AI is no longer theoretical. It is not that it
   replaces the cloud. It is that it changes the enterprise's negotiating
