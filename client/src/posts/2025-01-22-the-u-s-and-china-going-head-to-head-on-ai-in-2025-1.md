@@ -21,6 +21,4 @@ This could be good news for investors. Disruption = investment opportunity (acro
 
 Google, Meta, X, and others are global today because they’re available to the masses, not just deep-pocket visionary customers. The ROI in the trillions of dollars that will be spent in the name of AI will come from inference, not training. And inference comes in the form of applications, practicality, and reach.
 
-
-
 Read my full white paper [here](client/public/images/the-us-and-china-going-head-to-head-on-ai-in-2025.pdf).
