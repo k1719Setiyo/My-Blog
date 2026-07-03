@@ -20,3 +20,7 @@ The bottom line: DeepSeek is just the start. Of course, the global South will ro
 This could be good news for investors. Disruption = investment opportunity (across the AI and energy stack, across stage, ranging from venture capital to public markets). But policymakers will need to wake up and rethink the landscape. U.S. frontier model companies need to crack the code on cost and efficiency.  
 
 Google, Meta, X, and others are global today because they’re available to the masses, not just deep-pocket visionary customers. The ROI in the trillions of dollars that will be spent in the name of AI will come from inference, not training. And inference comes in the form of applications, practicality, and reach.
+
+
+
+Read my full white paper [here](client/public/images/the-us-and-china-going-head-to-head-on-ai-in-2025.pdf).
