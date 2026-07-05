@@ -9,8 +9,8 @@ As early as October 2024, I made the contrarian call that Chinese labs weren't 2
 * The U.S. labs were obsessed with going big on everything (data, parameters, compute), but that was going to present a series of bottlenecks.
 * China’s approaches (open source and a focus on efficiency) would be good enough for practical applications and at the very least winning the global south market. It was getting everything it needed.
 * The U.S. wouldn’t get what it most wanted (ASI/AGI which itself is a definition no one can decide on and a goal post that keeps moving) soon because it was hitting the power ceiling. AI execs didn’t understand the needs of energy execs and vice versa.
-* Huawei’s use of mega-clusters was savvy and provided more proof that China could close the hardware gap with ingenuity, not just by throwing cash and skirting export bans.
-* Manus—with its breakout multi-model, multi-modal, multi-agent approach gave us a preview of just how disruptive agentic AI would be for the knowledge economy and service industries (this particular point was made in my April, 2025 note, not the Jan white paper).
+* Huawei’s design of their rack-scale AI computing cluster was savvy and provided more proof that China could close the hardware gap with ingenuity, not just by throwing cash and skirting export bans.
+* Manus—with its blockbuster release in March 2025 gave us a preview of just how disruptive agentic AI would be for the knowledge economy and service industries (this particular point was made in my April, 2025 note, not the Jan white paper).
 
 So here we are mid-2026. What did or didn’t play out? Chinese labs continue to opt for applied, frontier-grade AI that gets deployed cheaply and everywhere. The U.S. labs most want the last increment of capability and fulfillment of the AGI dream. China aims to win on raw usage and cost. The U.S. aims to capture and hold high-margin spend on the hardest tasks. Which nation is more in control of its own destiny? 
 
