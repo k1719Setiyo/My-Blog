@@ -114,21 +114,3 @@ More broadly, these are some of the metrics I’ll be keeping a close eye on and
 * ROI by sector: retail, financial services, software.  
 * Pressure-release valves: model orchestration and model routing, early signs of continual learning, inference on the edge.  
 * And as open weight models increase pricing and consumer device hardware continues to evolve, the increasing move to local AI and the rise of the sovereign edge.
-
-**SOURCES**
-
- Yum, \[@yuhasbeen] taken. (2026, June 29). *Here’s the list of western companies moving ai workloads to chinese models.* \[Post] X (formerly Twitter). https://x.com/yuhasbeentaken/status/2071464716786950223  
-
-Artificial Analysis (pricing and Intelligence Index), <https://artificialanalysis.ai/models?pricing=blended-price>
-
-Goldman Sachs, Equity Research, 5 May 2026. “China Data Centers: Scaling the AI Infrastructure; Initiate Range Intelligent at Buy, Athub at Neutral.”
-
-Goldman Sachs, Equity Research, 23 February 2026. “Global Data Center Supply/Demand Update: Tight conditions likely to extend through 2026 + Read-across for Power, Hardware, and Industrial Tech/Engineering.”
-
-J.P. Morgan, Asia Pacific Equity Research, 18 June 2026. “Zhipu AI: Mature intelligence deflates pricing, but GLM-5.2 shows frontier upgrades can do the opposite.”
-
-J.P. Morgan, June 2026. “AI Capex 2.0: If You Build It, They Will Finance It.”
-
-OpenRouter Rankings, <https://openrouter.ai/rankings>
-
-WebDev Arena, <https://arena.ai/leaderboard/code/webdev>
