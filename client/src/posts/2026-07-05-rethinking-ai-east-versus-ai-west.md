@@ -6,7 +6,7 @@ description: A post revisiting my 2025 US-China AI Thesis
 As early as October 2024, I made the contrarian call that Chinese labs weren't 2 to 3 years behind their U.S. counterparts. In Jan 2025, I followed up with a [wide-ranging assessment](https://substratesm.com/post/2025-01-22-the-u-s-and-china-going-head-to-head-on-ai-in-2025-1 ) of the U.S.-China AI rivalry, and [an update](https://substratesm.com/post/2025-04-27-an-update-to-the-u-s-and-china-going-head-to-head-on-ai-in-2025 ) that April. Here's the recap of what I argued:
 
 * Chinese labs weren’t behind by 2 to 3 years and that China would level up within the year.
-* The U.S. were obsessed with going big on everything (data, parameters, compute), but that was going to present a series of bottlenecks.
+* The U.S. labs were obsessed with going big on everything (data, parameters, compute), but that was going to present a series of bottlenecks.
 * China’s approaches (open source and a focus on efficiency) would be good enough for practical applications and at the very least winning the global south market. It was getting everything it needed.
 * The U.S. wouldn’t get what it most wanted (ASI/AGI which itself is a definition no one can decide on and a goal post that keeps moving) soon because it was hitting the power ceiling. AI execs didn’t understand the needs of energy execs and vice versa.
 * Huawei’s use of mega-clusters was savvy and provided more proof that China could close the hardware gap with ingenuity, not just by throwing cash and skirting export bans.
