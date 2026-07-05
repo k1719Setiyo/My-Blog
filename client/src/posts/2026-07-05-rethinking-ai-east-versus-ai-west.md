@@ -3,7 +3,7 @@ title: Rethinking AI East Versus AI West
 date: 2026-07-05T18:41:00.000+04:00
 description: A post revisiting my 2025 US-China AI Thesis
 ---
-As early as October 2024, I made the contrarian call that Chinese labs weren't 2 to 3 years behind their U.S. counterparts. In Jan 2025, I followed up with a [wide-ranging assessment](https://substratesm.com/post/2025-01-22-the-u-s-and-china-going-head-to-head-on-ai-in-2025-1 ) of the U.S.-China AI rivalry, and [an update](https://substratesm.com/post/2025-04-27-an-update-to-the-u-s-and-china-going-head-to-head-on-ai-in-2025 ) that April. Here's the recap of what I argued:
+As early as October 2024, I made the contrarian call that Chinese AI labs weren't 2 to 3 years behind their U.S. counterparts. In Jan 2025, I followed up with a [wide-ranging assessment](https://substratesm.com/post/2025-01-22-the-u-s-and-china-going-head-to-head-on-ai-in-2025-1 ) of the U.S.-China AI rivalry, and [an update](https://substratesm.com/post/2025-04-27-an-update-to-the-u-s-and-china-going-head-to-head-on-ai-in-2025 ) that April. Here's the recap of what I argued:
 
 * Chinese labs weren’t behind by 2 to 3 years and that China would level up within the year.
 * The U.S. labs were obsessed with going big on everything (data, parameters, compute), but that was going to present a series of bottlenecks.
