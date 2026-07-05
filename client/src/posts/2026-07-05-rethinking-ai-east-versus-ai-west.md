@@ -25,7 +25,7 @@ Nowhere has the progress of China’s companies been more striking than on the f
 DeepSeek’s release in mid-January 2025 was a proof of concept in cost efficiency that sent a bracing warning through the tech world. The new “DeepSeek moment" everyone is hailing now is Zhipu’s release of GLM-5.2. The new model and its pricing update several weeks ago are solid confirmation that China is on to something bigger and more durable. The metrics are undeniable:
 
 * On [Arena AI,](https://arena.ai/leaderboard/code/webdev) GLM-5.2 ranks No. 2 globally, ahead of closed models—every GPT-5.5 variant, every Gemini model, and several Claude Opus iterations, behind only Anthropic's Claude Fable 5.  
-* On the A[rtificial Analysis Intelligence Index](https://artificialanalysis.ai/models/#intelligence-tabs), GLM-5.2 scores 51, making it the top open-weights model in the world, just behind the proprietary frontier of Claude Fable 5 (60), Claude Opus 4.8 (56), and GPT-5.5 (55).
+* On the [Artificial Analysis Intelligence Index](https://artificialanalysis.ai/models/#intelligence-tabs), GLM-5.2 scores 51, making it the top open-weights model in the world, just behind the proprietary frontier of Claude Fable 5 (60), Claude Opus 4.8 (56), and GPT-5.5 (55).
 
 In short, a cost-efficient high-performance model is no longer a single shocking data point. It informs market structure.
 
@@ -113,4 +113,4 @@ More broadly, these are some of the metrics I’ll be keeping a close eye on and
 * AI diffusion and its implications.
 * ROI by sector: retail, financial services, software.
 * Pressure-release valves: model orchestration and model routing, early signs of continual learning, inference on the edge.
-* And as open weight models increase pricing and consumer device hardware continues to evolve, the increasing move to local AI and the rise of the sovereign edge.
+* And as open weight models increase pricing and consumer device hardware continues to evolve, the increasing move to local AI and the rise of the sovereign edge ([one of the themes from my 2026 thesis](https://substratesm.com/post/2026-02-04-rewiring-ai-in-2026 )).
