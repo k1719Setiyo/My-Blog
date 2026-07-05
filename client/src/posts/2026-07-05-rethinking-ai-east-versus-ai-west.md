@@ -5,11 +5,11 @@ description: A post revisiting my 2025 US-China AI Thesis
 ---
 In Jan 2025, I put out a [wide-ranging assessment](https://substratesm.com/post/2025-01-22-the-u-s-and-china-going-head-to-head-on-ai-in-2025-1) of the U.S.-China AI rivalry. It was followed by [an update](https://substratesm.com/post/2025-04-27-an-update-to-the-u-s-and-china-going-head-to-head-on-ai-in-2025) that April. Here’s the recap of what I argued:
 
-* Chinese labs weren’t behind by 2 to 3 years and that China would level up within the year.  
-* The U.S. were obsessed with going big on everything (data, parameters, compute), but that was going to present a series of bottlenecks.  
-* China’s approaches (open source and a focus on efficiency) would be good enough for practical applications and at the very least winning the global south market. It was getting everything it needed.  
-* The U.S. wouldn’t get what it most wanted (ASI/AGI which itself is a definition no one can decide on and a goal post that keeps moving) soon because it was hitting the power ceiling. AI execs didn’t understand the needs of energy execs and vice versa.  
-* Huawei’s use of mega-clusters was savvy and provided more proof that China could close the hardware gap with ingenuity, not just by throwing cash and skirting export bans.  
+* Chinese labs weren’t behind by 2 to 3 years and that China would level up within the year.
+* The U.S. were obsessed with going big on everything (data, parameters, compute), but that was going to present a series of bottlenecks.
+* China’s approaches (open source and a focus on efficiency) would be good enough for practical applications and at the very least winning the global south market. It was getting everything it needed.
+* The U.S. wouldn’t get what it most wanted (ASI/AGI which itself is a definition no one can decide on and a goal post that keeps moving) soon because it was hitting the power ceiling. AI execs didn’t understand the needs of energy execs and vice versa.
+* Huawei’s use of mega-clusters was savvy and provided more proof that China could close the hardware gap with ingenuity, not just by throwing cash and skirting export bans.
 * Manus—with its breakout multi-model, multi-modal, multi-agent approach gave us a preview of just how disruptive agentic AI would be for the knowledge economy and service industries (this particular point was made in my April, 2025 note, not the Jan white paper).
 
 So here we are mid-2026. What did or didn’t play out? Chinese labs continue to opt for applied, frontier-grade AI that gets deployed cheaply and everywhere. The U.S. labs most want the last increment of capability and fulfillment of the AGI dream. China aims to win on raw usage and cost. The U.S. aims to capture and hold high-margin spend on the hardest tasks. Which nation is more in control of its own destiny? 
@@ -73,8 +73,8 @@ Enthusiasts of Chinese companies are crowing, citing West-to-East company migrat
 
 One is tempted to say, as of the summer of 2026, that U.S. export bans of chip technology have had more changes in direction than a World Cup match. But there’s no need to be cheeky. Three converging trends tell us everything we need to know about the general direction of this game.
 
-* Since 2025, the Trump Administration has been in a strategic (albeit selective) retreat from expansive bans, partly due to industry opposition and partly due to China’s rare earths monopoly.  
-* Nations and companies in the global South are increasingly attracted to China’s AI models and technology because of their cost-efficiency, raising the prospect that they will become permanently wedded to the East, not the West.  
+* Since 2025, the Trump Administration has been in a strategic (albeit selective) retreat from expansive bans, partly due to industry opposition and partly due to China’s rare earths monopoly.
+* Nations and companies in the global South are increasingly attracted to China’s AI models and technology because of their cost-efficiency, raising the prospect that they will become permanently wedded to the East, not the West.
 * Every time it seems the U.S. chip industry has boasted of a moat around its chip technology, China seems to find another way around it. Meituan’s LongCat-2.0—1.6 trillion parameters in a MoE layout—just pulled off a full pre‑training run and deployment on a cluster of about 50,000 domestic accelerators. Read: no NVIDIA necessary.
 
 All this points toward the same conclusion: China’s AI hardware development is a force that will not be stopped.
@@ -93,7 +93,7 @@ Enterprises are now blowing through annual AI budgets. For example, earlier this
 
 My initial thesis called electricity and supply chain delays the most concerning deficit faced by the U.S. My call on that point is even more emphatic now. American model scaling is relentlessly voracious for energy, and demand keeps climbing. However, it is worth noting U.S. companies thus far have not been letting energy bottlenecks appreciably slow their buildout. They are using an unprecedented wave of brute-force capital. China, by contrast, is scaling through state-directed infrastructure policy. The specifics:
 
-* Grid interconnection in U.S. queues are up to 7 years vs. a 2- to 3-year build cycle. Hyperscalers are pivoting to behind-the-meter gas, co-location, and build-to-transfer; gas turbines are largely not arriving until ~2029; and skilled labor (powerline electricians) are now an emerging constraint too.  
+* Grid interconnection in U.S. queues are up to 7 years vs. a 2- to 3-year build cycle. Hyperscalers are pivoting to behind-the-meter gas, co-location, and build-to-transfer; gas turbines are largely not arriving until ~2029; and skilled labor (powerline electricians) are now an emerging constraint too.
 * For the U.S., JP Morgan forecasts $5.5T total AI capex through 2030, $4.1T of it debt-financed; hyperscaler capex ~$650B in 2026 heading above $1.1T in 2027; and $3T+ in chip/accelerator financing on top. GS figures provide a wide-angle lens the brute force capex differential at work where annual capex spend of Chinese hyperscalers is a mere 10% of what US hyperscalers are spending.
 
 ![](/images/hyperscaler_capex-1-.png)
@@ -110,7 +110,7 @@ The interesting question ahead isn’t who reaches the frontier first, since bot
 
 More broadly, these are some of the metrics I’ll be keeping a close eye on and will be writing about:
 
-* AI diffusion and its implications.  
-* ROI by sector: retail, financial services, software.  
-* Pressure-release valves: model orchestration and model routing, early signs of continual learning, inference on the edge.  
+* AI diffusion and its implications.
+* ROI by sector: retail, financial services, software.
+* Pressure-release valves: model orchestration and model routing, early signs of continual learning, inference on the edge.
 * And as open weight models increase pricing and consumer device hardware continues to evolve, the increasing move to local AI and the rise of the sovereign edge.
