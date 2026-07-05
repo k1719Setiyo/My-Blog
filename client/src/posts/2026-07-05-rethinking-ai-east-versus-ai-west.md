@@ -31,7 +31,7 @@ In short, a cost-efficient high-performance model is no longer a single shocking
 
 More broadly, the share of Chinese token consumption on OpenRouter surpassed 50% the week of June 22 - it stood at 10% in December. It’s still on track to be over 50% this week. \[Caveat: OpenRouter skews toward cost-sensitive developers, so  it somewhat overstates the open-weight share of total global inference.] China closed the gap precisely as I argued it would, through open-source diffusion, test-bed scale, and the efficiency that export controls had forced on it. 
 
-![](/images/openrouter_dual_axis-2-.png)
+![](/images/openrouter_dual_axis-3-.png)
 
 Looking ahead, there are now signals that Zhipu will soon have a model with Mythos-level capability on cybersecurity tasks. In sum, Chinese models are not just clearing benchmarks, they are excelling in adversarial, high-stakes agentic environments.
 
