@@ -106,7 +106,12 @@ img {
 }
 
 .markdown-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.markdown-content li > ul,
+.markdown-content li > ol {
+  margin-top: 0.3rem;
+  margin-bottom: 0;
 }
 
 .markdown-content blockquote {
