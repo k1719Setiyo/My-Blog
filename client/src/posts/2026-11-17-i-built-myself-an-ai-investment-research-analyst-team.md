@@ -29,6 +29,8 @@ The skeptic tests the case, checks the figures and asks what the price already a
 
 The result can be Buy, Sell, Not a buy, Watch for a buy or Watch for a sell, with the reasons made clear. A Buy requires the thesis to affect a meaningful share of the company’s business. A Sell must pass additional risk checks before qualifying as a short candidate. The run also includes comparisons across the researched companies, spread trade ideas and ETFs with overlapping holdings. Spread recommendations need the judge’s backing; other candidates are shown as spreads to watch.
 
+**What I get from a quick research report.** I can request an in-depth report on a single company and include specific questions I want answered, without starting a thesis run. The report addresses those questions alongside the cases for owning and shorting the stock. The lead researcher, skeptic and judge test the arguments before fixed rules set a recommendation, with the reasoning and evidence made clear. If I already own the stock, it assesses whether to add, hold, trim or sell.
+
 **What the reports are built from.** I use one financial data provider for the prices, financial statements, analyst estimates, business segment revenues and other figures behind the scores. Those figures are checked against official filings wherever possible, including SEC filings, European annual reports and Taiwan’s official quarterly figures.
 
 The agents also read earnings call transcripts, company announcements and news from selected global and local publications. Recent arXiv papers and posts from X accounts I follow and closely connected accounts help surface new technology, private challengers and threats that may not yet show up in financial results.
