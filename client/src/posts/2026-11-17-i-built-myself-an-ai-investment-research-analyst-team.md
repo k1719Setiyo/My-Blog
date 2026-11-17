@@ -3,7 +3,7 @@ title: I Built Myself an AI Investment Research Team:Signal Desk
 date: 2026-11-16T19:18:00.000-05:00
 description: Signal Desk
 ---
-What started as an experiment has turned into Signal Desk, a personal investment research app that uses a team of AI agents to extract signal from noise in public markets. I designed it and developed it with a separate team of AI agents, who now maintain and update it.
+What started as an experiment has turned into Signal Desk, a personal investment research app that uses a team of AI agents to extract signal from noise in public markets. I designed it and developed it with a separate team of AI agents, who now maintain and update it for me.
 
 The experiment was to build a product that was model-agnostic from day one. Financial markets gave me a domain I know well to test model capabilities and agentic workflows. I wanted to judge performance through research I could evaluate and use, rather than generic benchmarks. There's still plenty I want to improve, but I'm already getting a lot of value from it and have learned a lot along the way.
 
@@ -13,7 +13,7 @@ I start with a thesis or company, and the agents work as an analyst team. For a 
 
 **How I divide the work across agents and models.** For a full thesis run, I use seven AI agents powered by six or seven different models, both open and closed. Each agent has a defined job: mapping the thesis, screening companies, re-checking close calls, reading documents, writing research, challenging the case or judging the arguments.
 
-Signal Desk is model-agnostic. I set the default models through testing and can change them directly in the app, with OpenRouter providing access to them. I use more capable models for critical judgments and faster, cheaper ones for screening large numbers of companies.
+Signal Desk is model-agnostic. I set the default models through testing and can change them directly in the app, with OpenRouter as my access point. I use more capable models for critical judgments and faster, cheaper ones for screening large numbers of companies.
 
 The lead researcher, skeptic and judge use models from three different companies. The judge weighs the original research, the skeptic’s objections and the researcher’s response, so the final assessment comes from a separate model.
 
