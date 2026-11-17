@@ -5,7 +5,7 @@ description: Signal Desk
 ---
 I built Signal Desk as a personal investment research app that uses a team of AI agents to extract signals from noise. I designed and built it with a separate team of agents who now maintain and update it.
 
-I started this as an experiment in building a product that was model-agnostic from day one, so I could choose and change the models doing the work. Finance gave me a domain I know well to test their capabilities and experiment with agentic workflows. I wanted to judge performance through research I could evaluate and use, rather than generic benchmarks. There’s still plenty I want to improve, but I’m already getting a lot of value from it.
+I started this as an experiment to build a product that was model-agnostic from day one, allowing me to choose and change the models doing the work on the fly. Financial markets gave me a domain I know well to test their capabilities and experiment with agentic workflows. I wanted to judge performance through research I could evaluate and use, rather than generic benchmarks. There’s still plenty I want to improve, but I’m already getting a lot of value from it.
 
 **How I use Signal Desk.** I set the investment policy the app works within. For each thesis run or single-company report, I can choose a different investment horizon and adjust limits such as company size, liquidity and eligible markets.
 
