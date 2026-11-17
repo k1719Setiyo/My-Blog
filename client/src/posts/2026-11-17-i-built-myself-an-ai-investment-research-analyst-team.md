@@ -11,7 +11,7 @@ I started this as an experiment to build a product that was model-agnostic from 
 
 I start with a thesis or company, and the agents work as an analyst team. For a thesis, they map relevant industries and roles, then screen qualifying companies across 24 exchanges in the US, the UK, Europe, Hong Kong, Japan, South Korea and Taiwan. They cross-check financials, compare companies and research likely beneficiaries and companies at risk. Single-company research can assess a new idea or revisit a position I hold.
 
-**How I divide the work across agents and models.** For a full thesis run, I use seven AI agents powered by six or seven different models. Each agent has a defined job: mapping the thesis, screening companies, re-checking close calls, reading documents, writing research, challenging the case or judging the arguments.
+**How I divide the work across agents and models.** For a full thesis run, I use seven AI agents powered by six or seven different models, both open and closed. Each agent has a defined job: mapping the thesis, screening companies, re-checking close calls, reading documents, writing research, challenging the case or judging the arguments.
 
 Signal Desk is model-agnostic. I set the default models through testing and can change them directly in the app, with OpenRouter providing access to them. I use more capable models for critical judgments and faster, cheaper ones for screening large numbers of companies.
 
