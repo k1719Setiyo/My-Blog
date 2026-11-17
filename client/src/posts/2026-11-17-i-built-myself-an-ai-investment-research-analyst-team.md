@@ -11,15 +11,15 @@ I started this as an experiment to build a product that was model-agnostic from 
 
 I start with a thesis or company, and the agents work as an analyst team. For a thesis, they map relevant industries and roles, then screen qualifying companies across 24 exchanges in the US, the UK, Europe, Hong Kong, Japan, South Korea and Taiwan. They cross-check financials, compare companies and research likely beneficiaries and companies at risk. Single-company research can assess a new idea or revisit a position I hold.
 
-**How I divide the work across agents and models.** A single thesis run uses six or seven models across the different agent roles. These cover mapping the thesis, screening companies, re-checking close calls, reading documents, writing research, challenging it and judging the competing arguments. I choose the model for each job, using the most capable ones for important judgments and faster, cheaper ones for screening large numbers of companies.
+**How I divide the work across agents and models.** For a full thesis run, I use seven AI agents powered by six or seven different models. Each agent has a defined job: mapping the thesis, screening companies, re-checking close calls, reading documents, writing research, challenging the case or judging the arguments.
 
-Signal Desk is model-agnostic. I choose and change models directly in the app, with OpenRouter providing access to them. Each run shows its cost and the models used, helping me judge the value I get.
+Signal Desk is model-agnostic. I set the default models through testing and can change them directly in the app, with OpenRouter providing access to them. I use more capable models for critical judgments and faster, cheaper ones for screening large numbers of companies.
 
-The writer, skeptic and judge are three roles within that wider team, and they use models from three different companies. This keeps the final judgment independent of both the original research and the challenge to it, and makes it less likely that one model’s blind spots go untested.
+The lead researcher, skeptic and judge use models from three different companies. The judge weighs the original research, the skeptic’s objections and the researcher’s response, so the final assessment comes from a separate model.
 
-**What I get from one thesis run.** Each run produces a research pack that shows the total cost and which model handled each role. I weigh the quality and usefulness of the research against what I spent, and use that to refine my model choices for future runs. 
+**What I get from one thesis run.** Each run produces a research pack that shows the total cost and which model handled each role. I can weigh the quality and usefulness of the research against what I spent, and use that to refine my model choices for future runs.
 
-It opens with the thesis map: who could win or lose, the chain of cause and effect, the measures to watch and what would prove the thesis wrong. A funnel shows how companies were narrowed to a scored shortlist. The closest screening decisions are re-checked by a stronger model, using business segment revenues where available to judge how much of each company the thesis touches.
+The research starts with the thesis map: who could win or lose, the chain of cause and effect, the measures to watch and what would prove the thesis wrong. A funnel shows how companies were narrowed to a scored shortlist. The closest screening decisions are re-checked by a stronger model, using business segment revenues where available to judge how much of each company the thesis touches.
 
 Deep research focuses on the 12 long candidates best placed in the thesis and up to 12 companies most at risk, with up to three additional reports on relevant companies worth at least $100 billion. I can request equivalent research for any other company that’s been scored.
 
@@ -27,7 +27,7 @@ Each report covers the case for and against, catalysts, valuation against peers 
 
 The skeptic tests the case, checks the figures and asks what the price already assumes. The writer answers its objections, and the judge weighs both sides, including whether the valuation is justified and which unresolved concerns change the conclusion. For companies at risk, it also considers the seriousness and timing of the threat and whether the price already reflects it. Fixed rules combine those judgments with scores, data checks and research confidence to set a rating. The judge cannot override those checks.
 
-The result can be a Buy, Not a buy, Sell or a watch decision, with the reasons made clear. A Buy also requires the thesis to affect a meaningful share of the company’s business, so strong financials alone are not enough. A Sell faces additional risk checks before it qualifies as a short candidate. The run also includes comparisons across the researched companies, spread trade ideas and ETFs with overlapping holdings. Spread recommendations need the judge’s backing; other candidates are shown as spreads to watch.
+The result can be Buy, Sell, Not a buy, Watch for a buy or Watch for a sell, with the reasons made clear. A Buy requires the thesis to affect a meaningful share of the company’s business. A Sell must pass additional risk checks before qualifying as a short candidate. The run also includes comparisons across the researched companies, spread trade ideas and ETFs with overlapping holdings. Spread recommendations need the judge’s backing; other candidates are shown as spreads to watch.
 
 **What the reports are built from.** I use one financial data provider for the prices, financial statements, analyst estimates, business segment revenues and other figures behind the scores. Those figures are checked against official filings wherever possible, including SEC filings, European annual reports and Taiwan’s official quarterly figures.
 
