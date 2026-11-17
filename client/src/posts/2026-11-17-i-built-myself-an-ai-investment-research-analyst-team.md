@@ -1,9 +1,9 @@
 ---
-title: I Built Myself an AI Investment Research Analyst Team
+title: I Built Myself an AI Investment Research Team:Signal Desk
 date: 2026-11-16T19:18:00.000-05:00
 description: Signal Desk
 ---
-I built Signal Desk as a personal investment research app that uses a team of AI agents to extract signals from noise. I designed and built it with a separate team of agents who now maintain and update it.
+I built Signal Desk as a personal investment research app that uses a team of AI agents to extract signals from noise. I designed and developed it with a separate team of agents who now maintain and update it.
 
 I started this as an experiment to build a product that was model-agnostic from day one, allowing me to choose and change the models doing the work on the fly. Financial markets gave me a domain I know well to test their capabilities and experiment with agentic workflows. I wanted to judge performance through research I could evaluate and use, rather than generic benchmarks. There’s still plenty I want to improve, but I’m already getting a lot of value from it and have learned a lot along the way.
 
